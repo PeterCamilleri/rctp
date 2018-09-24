@@ -1,6 +1,6 @@
 # Rctp
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rctp`. To experiment with that code, run `bin/console` for an interactive prompt.
+WIP
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -22,13 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+WIP
 
 ## Contributing
 
 #### Plan A
 
-1. Fork it ( https://github.com/PeterCamilleri/parse_queue/fork )
+1. Fork it ( https://github.com/PeterCamilleri/rctp/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
