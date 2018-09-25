@@ -1,8 +1,19 @@
-# Rctp
+# The Ruby Compiler Toolkit Project
+
+Welcome. This project exists as a result of the conjecture that Ruby would be
+an excellent language for writing compilers. This belief is based on the
+observation that Ruby excels in handling complex data structures and
+relationships in a simple, flexible, easier-to-understand way. This toolkit is
+being developed for a number of reasons:
+
+1. To test the Ruby Compiler Conjecture.
+2. To build a platform that will permit others to develop compilers of
+their own.
+3. To demonstrate the principles of compiler design and construction without
+all of the obscuring ceremony and boilerplate of more conventional languages.
+4. To promote programming education and exploration.
 
 WIP
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
