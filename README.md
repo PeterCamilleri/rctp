@@ -36,8 +36,10 @@ WIP
 
 #### Plan B
 
-Go to the GitHub repository and raise an issue calling attention to some
-aspect that could use some TLC or a suggestion or an idea.
+Go to the GitHub repository and raise an
+ [issue](https://github.com/PeterCamilleri/rctp/issues)
+calling attention to some aspect that could use some TLC or a suggestion or an
+idea.
 
 ## License
 
@@ -46,6 +48,6 @@ The gem is available as open source under the terms of the
 
 ## Code of Conduct
 
-Everyone interacting in the ParseQueue project’s codebases, issue trackers,
+Everyone interacting in the rctp project’s codebases, issue trackers,
 chat rooms and mailing lists is expected to follow the
 [code of conduct](./CODE_OF_CONDUCT.md).
