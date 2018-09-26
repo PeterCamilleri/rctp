@@ -26,10 +26,14 @@ task :vers do |t|
 end
 
 desc "Alternative test procedure"
-task :alt_test do |t|
-  here  = File.dirname(__FILE__)
-  block = "{|file| require file if File.basename(file) =~ /test/}"
-  code = "Dir['#{here}/test/*.rb'].each #{block}"
-  cmd   = "ruby -e\"#{code}\""
+task :alt_test, :target do |t, args|
+  args.with_defaults(:target => 'test')
+  puts "Target = #{target = args[:target]}"
+
+  here   = File.dirname(__FILE__)
+  block  = "{|file| require file if File.basename(file) =~ /test/}"
+  code   = "Dir['#{here}/#{target}/*.rb'].each #{block}"
+  cmd    = "ruby -e\"#{code}\""
+
   system cmd
 end
