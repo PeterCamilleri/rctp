@@ -30,7 +30,7 @@ task :alt_test, :target do |t, args|
   args.with_defaults(:target => 'test')
   here  = File.dirname(__FILE__)
   target = "#{here}/#{args[:target]}/*.rb"
-  puts "Target folder = #{target}"
+  puts "Target files = #{target}"
   puts
 
   block = "{|file| require file if File.basename(file) =~ /test/}"
