@@ -35,7 +35,6 @@ task :alt_test, :target do |t, args|
 
   block = "{|file| require file if File.basename(file) =~ /test/}"
   code  = "Dir['#{target}'].each #{block}"
-  cmd   = "ruby -e\"#{code}\""
 
-  system cmd
+  system "ruby -e\"#{code}\""
 end
