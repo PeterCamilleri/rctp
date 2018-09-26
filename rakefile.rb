@@ -25,7 +25,7 @@ task :vers do |t|
   puts "rctp version = #{Rctp::VERSION}"
 end
 
-desc "Alternative test procedure"
+desc "Alternative test procedure, target defaults 'test'"
 task :alt_test, :target do |t, args|
   args.with_defaults(:target => 'test')
   here  = File.dirname(__FILE__)
