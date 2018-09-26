@@ -1,4 +1,4 @@
-require "rctp/version"
+require_relative "rctp/version"
 
 # The Ruby Compiler Toolkit Project
 class Rctp
