@@ -24,3 +24,12 @@ task :vers do |t|
   puts
   puts "rctp version = #{Rctp::VERSION}"
 end
+
+desc "Alternative test procedure"
+task :alt_test do |t|
+  here  = File.dirname(__FILE__)
+  block = "{|file| require file if File.basename(file) =~ /test/}"
+  code = "Dir['#{here}/test/*.rb'].each #{block}"
+  cmd   = "ruby -e\"#{code}\""
+  system cmd
+end
