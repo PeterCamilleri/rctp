@@ -36,7 +36,7 @@ programs called translators. Let's take a look at the translator family:
 |Exporter | Data Structure | Formatted Data |  1 to Many
 
 Notes:
-* Formatted Data is structured text that includes JSON, XML, HTML, etc.
+* Formatted Data is structured text that includes JSON, XML, HTML, YAML, etc.
 * Data Structures are in memory-aggregations of structured data.
 * Exporters are formatters not translators, but are shown for completeness.
 
@@ -44,6 +44,11 @@ As can be seen, translators encompass a very wide variety of applications with
 many diverse requirements. They are also crucial in so many aspects of
 information processing that it should be no surprise that they are intensely
 studied and analyzed.
+
+This diversity also shows why no one approach can ever handle all of these
+requirements. In spite of this, we will try to keep as many options open as
+possible, even if this means we must compromise. In general, clarity and
+simplicity will be favored over complexity and performance.
 
 WIP
 
