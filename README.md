@@ -35,7 +35,6 @@ programs called translators. Let's take a look at the translator family:
 |Importer | Formatted Data | Data Structure | Many to 1
 |Exporter | Data Structure | Formatted Data |  1 to Many
 
-&nbsp;
 
 Note:
 * Formatted Data includes JSON, XML, HTML, etc.
