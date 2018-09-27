@@ -3,8 +3,16 @@
 Welcome. This project exists as a result of the conjecture that Ruby would be
 an excellent language for writing compilers. This belief is based on the
 observation that Ruby excels in handling complex data structures and
-relationships in a simple, flexible, easier-to-understand way. This toolkit is
-being developed for a number of reasons:
+relationships in a simple, flexible, easier-to-understand way. Further, the
+lack of long compile/link/load development cycles combined with excellent
+support for code unit and integration testing make Ruby a highly productive
+environment.
+
+Further, while Ruby is considered slow by many, this is less relevant in an
+application, like a compiler, where a lot of time is spent reading and writing
+files.
+
+As a result, this toolkit is being developed for a number of reasons:
 
 1. To test the Ruby Compiler Conjecture.
 2. To build a platform that will permit others to develop compilers of
