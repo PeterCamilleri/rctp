@@ -21,6 +21,31 @@ their own.
 all of the obscuring ceremony and boilerplate of more conventional languages.
 4. To promote programming education and exploration.
 
+#### Translators:
+
+So, just what are compilers? Well compilers are a member of a family of
+programs called translators. Let's take a look at the translator family:
+
+| Program Class | Input Type | Output Type | Relationship
+|---|---|---|---|
+|Assembler | Low level | Machine code | 1 to 1 |
+|Compiler | High level | Lower level | 1 to Many
+|Interpreter | High level | Performs actions | 1 to Many
+|Transpiler | High level | High level | Many to Many
+|Importer | Formatted Data | Data Structure | Many to 1
+|Exporter | Data Structure | Formatted Data |  1 to Many
+
+&nbsp;
+
+Note:
+* Formatted Data includes JSON, XML, HTML, etc.
+* Data Structures are in memory aggregations of data.
+
+As can be seen, translators encompass a very wide variety of applications with
+many diverse requirements. They are also crucial in so many aspects of
+information processing that it should be no surprise that they are intensely
+studied and analyzed.
+
 WIP
 
 ## Installation
