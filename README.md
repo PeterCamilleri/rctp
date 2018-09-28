@@ -38,7 +38,8 @@ programs called translators. Let's take a look at the translator family:
 Notes:
 * Formatted Data is structured text that includes JSON, XML, HTML, YAML, etc.
 * Data Structures are in memory-aggregations of structured data.
-* Exporters are formatters not translators, but are shown for completeness.
+* Exporters are really formatters not translators, but are shown here for
+completeness because they are the converse of importers.
 
 As can be seen, translators encompass a very wide variety of applications with
 many diverse requirements. They are also crucial in so many aspects of
