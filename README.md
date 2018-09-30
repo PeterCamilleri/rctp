@@ -27,9 +27,7 @@ So, just what are compilers? Well compilers are a member of a family of
 programs called translators. Translators are programs that accept an input and
 produce an output, equivalent to the input in a different representation.
 This can be shown as follows:
-
 ![A Translator](./images/Overview_One.png)
-
 There are many classes of translators based on the nature of the input, the
 output, and the relationship between them. Let's take a look at the translator
 family:
@@ -50,7 +48,8 @@ Notes:
 immediate use. You could say an interpreter imports code and an importer
 interprets data.
 * Exporters are really formatters not translators, but are shown here for
-completeness because they are the converse of importers.
+completeness because they are the converse of importers. On that note one could
+also add the disassembler and decompiler, but that would be silly.
 
 As can be seen, translators encompass a very wide variety of applications with
 many diverse requirements. They are also crucial in so many aspects of
