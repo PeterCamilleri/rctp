@@ -20,6 +20,7 @@ their own.
 3. To demonstrate the principles of compiler design and construction without
 all of the obscuring ceremony and boilerplate of more conventional languages.
 4. To promote programming education and exploration.
+5. As an enabler for my own compiler based projects.
 
 #### Translators:
 
