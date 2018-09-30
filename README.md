@@ -24,7 +24,15 @@ all of the obscuring ceremony and boilerplate of more conventional languages.
 #### Translators:
 
 So, just what are compilers? Well compilers are a member of a family of
-programs called translators. Let's take a look at the translator family:
+programs called translators. Translators are programs that accept an input and
+produce an output, equivalent to the input in a different representation.
+This can be shown as follows:
+
+![A Translator](./images/Overview_One.png)
+
+There are many classes of translators based on the nature of the input, the
+output, and the relationship between them. Let's take a look at the translator
+family:
 
 | Program Class | Input Type | Output Type | Relationship
 |---|---|---|---|
@@ -38,6 +46,9 @@ programs called translators. Let's take a look at the translator family:
 Notes:
 * Formatted Data is structured text that includes JSON, XML, HTML, YAML, etc.
 * Data Structures are in memory-aggregations of structured data.
+* Interpreters and importers are similar in that they both translate for
+immediate use. You could say an interpreter imports code and an importer
+interprets data.
 * Exporters are really formatters not translators, but are shown here for
 completeness because they are the converse of importers.
 
