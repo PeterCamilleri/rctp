@@ -125,3 +125,15 @@ The gem is available as open source under the terms of the
 Everyone interacting in the rctp project’s codebases, issue trackers,
 chat rooms and mailing lists is expected to follow the
 [code of conduct](./CODE_OF_CONDUCT.md).
+
+## References
+
+Lest anyone think that I am some sort of compiler guru genius, I am not. I
+learned about compilers the old fashioned way; by taking courses in school and
+by reading books. Both are very good, but the books cost a lot less money.
+
+Here are some books that I found very useful. While there are references to
+these books through-out, some tiny snippets or ideas may be found as well. I
+want to gratefully acknowledge all of them.
+
+Modern Compiler Design (Dick Grune, Kees van Reeuwijk, Henri E. Bal Ceriel, J.H. Jacobs, Koen Langendoen, 2012)
