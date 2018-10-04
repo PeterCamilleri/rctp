@@ -64,6 +64,14 @@ requirements. In spite of this, we will try to keep as many options open as
 possible, even if this means we must compromise. In general, clarity and
 simplicity will be favored over complexity and performance.
 
+This project will stay pretty focused on compilers, however much of this
+material will be applicable to other sorts of translators. Now, our first
+diagram had entirely too much magic cloud going on for comfort. Let's see
+what happens when the TV forensics guy clicks the enhance image on that fuzzy
+cloud:
+
+![A Translator](./images/Overview_Two.png)
+
 WIP
 
 ## Installation
