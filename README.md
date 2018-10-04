@@ -73,6 +73,8 @@ neochromatic image enhancer on that fuzzy cloud:
 
 ![A Translator](./images/Overview_Two.png)
 
+[Adapted from _Modern Compiler Design_, page 3]
+
 A step up I suppose. Instead of a meaningless cloud, there are three boxes with
 rather broadly defined responsibilities.
 
@@ -135,5 +137,8 @@ by reading books. Both are very good, but the books cost a lot less money.
 Here are some books that I found very useful. While there are references to
 these books through-out, some tiny snippets or ideas may be found as well. I
 want to gratefully acknowledge all of them.
+
+Also, if you want to really step up your compiler skills, these books could
+help a lot.
 
 Modern Compiler Design (Dick Grune, Kees van Reeuwijk, Henri E. Bal Ceriel, J.H. Jacobs, Koen Langendoen, 2012)
