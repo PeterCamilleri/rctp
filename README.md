@@ -73,7 +73,7 @@ neochromatic image enhancer on that fuzzy cloud:
 
 ![A Translator](./images/Overview_Two.png)
 
-[Adapted from _Modern Compiler Design_, page 3]
+[Adapted from _Modern Compiler Design_, page 3, Figure 1.2]
 
 A step up I suppose. Instead of a meaningless cloud, there are three boxes with
 rather broadly defined responsibilities.
