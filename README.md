@@ -138,8 +138,8 @@ Here are some books that I found very useful. While there are references to
 these books through-out, some tiny snippets or ideas may be found as well. I
 want to gratefully acknowledge all of them.
 
-Also, if you want to really step up your compiler skills, these books could
-help a lot.
+Also, if you want to really step up your compiler skills, a serious read of
+these books could help a lot.
 
 Modern Compiler Design (Dick Grune, Kees van Reeuwijk, Henri E. Bal Ceriel, J.H. Jacobs, Koen Langendoen, 2012)
 
