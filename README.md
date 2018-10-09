@@ -35,6 +35,7 @@ Let's take a look at the two parts of our diagram that are not the mystical
 cloud of magic compiler stuff. Namely, a brief note about the Input and Output.
 What forms can these take?
 
+---
 **Input**: The types of things we input into translators has not really changed
 a great deal over the years. It mostly consists of files containing text. Yes
 we have progressed from obsolete text encodings like
@@ -56,20 +57,56 @@ specialized applications.
 As a result, to keep things simple, this project will focus on accepting text
 files as input.
 
+---
 
+**Output**: In stark contrast, compiler output exhibits a large range, often
+available as options within the same program. These can include:
 
-WIP
+_Raw Binary_ - A raw binary code image file suitable for "burning" into
+programmable memory. This used to be more common, but is sometimes still seen
+in compilers for very small embedded computer systems.
+
+_Text Binary_ - A text file with a text representation of binary file. This is
+done using formats like the Intel Hex or Motorola S-Record encodings. Again,
+this used to be more common. It has the advantage that it incorporates
+rudimentary error checking, absent from the raw binary format.
+
+_Executable_ - A binary executable format formatted according to operating
+system (Linux, Unix, Multics, etc) rules.
+
+_Object_ - A binary format suitable as input to a post-compiler tool called a
+[linker](https://en.wikipedia.org/wiki/Linker_(computing)). This is a very
+common output choice as it supports the creation of code libraries, mixed
+language programs and multiple compilation units.
+
+_Assembly_ - A text file that contains the assembly language equivalent of the
+input high level language. This is often an option to allow the generated code
+to be examined and verified to confirm correct operation of the compiler.
+
+_Language_ - A text file that contains the equivalent of the input high level
+language in another high level language. Examples of this include
+[Cfront](https://en.wikipedia.org/wiki/Cfront) that accepted 'C++' code and
+generated 'C' code and [Babel](https://babeljs.io/) which accepts modern
+ECMAScript (aka JavaScript) and outputs an older, more widely supported,
+version of the same.
+
+_Interpretation_ - In this case, there is no output representation. Instead,
+after performing all the needed analysis and code generation steps, that code
+is run right away. This approach is used in Basic, Ruby, Python, and many
+other languages.
+
+#### Summary of Translators.
 
 There are many classes of translators based on the nature of the input, the
-output, and the relationship between them. Let's take a look at the translator
-family:
+output, and the relationship between them. Let's take another look at the
+family of translators:
 
 | Program Class | Input Type | Output Type | Relationship
 |---|---|---|---|
-|Assembler | Low level | Machine code | 1 to 1 |
-|Compiler | High level | Lower level | 1 to Many
-|Interpreter | High level | Performs actions | 1 to Many
-|Transpiler | High level | High level | Many to Many
+|[Assembler](https://en.wikipedia.org/wiki/Assembly_language) | Low level | Machine code | 1 to 1 |
+|[Compiler](https://en.wikipedia.org/wiki/Compiler) | High level | Lower level | 1 to Many
+|[Interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) | High level | Performs actions | 1 to Many
+|[Transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) | High level | High level | Many to Many
 |Importer | Formatted Data | Data Structure | Many to 1
 |Exporter | Data Structure | Formatted Data |  1 to Many
 
@@ -83,10 +120,10 @@ interprets data.
 completeness because they are the converse of importers. On that note one could
 also add the disassembler and decompiler, but that would be silly.
 
-As can be seen, translators encompass a very wide variety of applications with
-many diverse requirements. They are also crucial in so many aspects of
-information processing that it should be no surprise that they are intensely
-studied and analyzed.
+So, translators encompass a very wide variety of applications with many diverse
+requirements. They are also crucial in so many aspects of information
+processing that it should be no surprise that they are intensely studied and
+analyzed.
 
 This diversity also shows why no one approach can ever handle all of these
 requirements. As a result, this project will stay pretty focused on compilers,
@@ -95,6 +132,8 @@ however much of this material will be applicable to other sorts of translators.
 We will try to keep as many options open as possible, even if this means we
 must compromise. In general, clarity and simplicity will be favored over
 complexity and raw performance.
+
+#### Starting to Zoom In
 
 Now, our first diagram had entirely too much magic cloud going on for comfort.
 Let's see what happens when that TV forensics laboratory guy sicks the dynamic,
