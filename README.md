@@ -43,14 +43,18 @@ we have progressed from obsolete text encodings like
 [ASCII](https://en.wikipedia.org/wiki/ASCII) encoded text files, to now when
 most contemporary compilers use the versatile
 [UTF-8](https://en.wikipedia.org/wiki/UTF-8) encoding.
-Nonetheless, it's still all blobs (or files) of text. A few, rare cases use
-visual or graphical inputs to describe programs, but these are usually confined
-to tools for setting the appearance of applications with a graphical user
-interface
+Nonetheless, it's still all blobs (or files) of text.
+
+A few, rare cases use visual or graphical inputs to describe programs, but
+these are usually confined to tools for setting the appearance of applications
+with a graphical user interface
 [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) or proprietary
 systems with limited application like
-[these](https://en.wikipedia.org/wiki/Visual_programming_language). As a result
-this project will focus on accepting text files as input.
+[these](https://en.wikipedia.org/wiki/Visual_programming_language) or
+specialized applications.
+
+As a result, to keep things simple, this project will focus on accepting text
+files as input.
 
 
 
