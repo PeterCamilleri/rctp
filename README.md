@@ -140,7 +140,7 @@ complexity and raw performance.
 #### Starting to Zoom In
 
 Now, our first diagram had entirely too much magic cloud going on for comfort.
-Let's see what happens when that TV forensics laboratory guy sicks the dynamic,
+Let's see what happens when that TV forensics laboratory guy uses the dynamic,
 neochromatic image enhancer on that fuzzy cloud:
 
 ![A Translator](./images/Overview_Two.png)
