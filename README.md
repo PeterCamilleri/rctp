@@ -31,8 +31,9 @@ This can be shown as follows:
 
 ![A Translator](./images/Overview_One.png)
 
-Let's take a look at the two parts of our diagram that are not the compiler.
-Namely the Input and Output. What forms can these take:
+Let's take a look at the two parts of our diagram that are not the mystical
+cloud of magic compiler stuff. Namely, a brief note about the Input and Output.
+What forms can these take?
 
 **Input**: The types of things we input into translators has not really changed
 a great deal over the years. It mostly consists of files containing text. Yes
@@ -40,7 +41,8 @@ we have progressed from obsolete text encodings like
 [Hollerith Cards](https://en.wikipedia.org/wiki/Punched_card),
 [EBDIC](https://en.wikipedia.org/wiki/EBCDIC) and
 [ASCII](https://en.wikipedia.org/wiki/ASCII) encoded text files, to now when
-most contemporary compilers use [UTF-8](https://en.wikipedia.org/wiki/UTF-8).
+most contemporary compilers use the versatile
+[UTF-8](https://en.wikipedia.org/wiki/UTF-8) encoding.
 Nonetheless, it's still all blobs (or files) of text. A few, rare cases use
 visual or graphical inputs to describe programs, but these are usually confined
 to tools for setting the appearance of applications with a graphical user
