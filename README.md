@@ -6,7 +6,8 @@ observation that Ruby excels in handling complex data structures and
 relationships in a simple, flexible, easier-to-understand way. Further, the
 lack of long compile/link/load development cycles combined with excellent
 support for code unit and integration testing make Ruby a highly productive
-environment.
+environment. In addition, Ruby is unique in having as a primary goal, the
+maximization of programmer joy!
 
 Further, while Ruby is considered slow by many, this is less relevant in an
 application, like a compiler, where a lot of time is spent reading and writing
@@ -14,13 +15,14 @@ files.
 
 As a result, this toolkit is being developed for a number of reasons:
 
-1. To test the Ruby Compiler Conjecture.
-2. To build a platform that will permit others to develop compilers of
+* To test the Ruby Compiler Conjecture.
+* To build a platform that will permit others to develop compilers of
 their own.
-3. To demonstrate the principles of compiler design and construction without
+* To demonstrate the principles of compiler design and construction without
 all of the obscuring ceremony and boilerplate of more conventional languages.
-4. To promote programming education and exploration.
-5. As an enabler for my own compiler based projects.
+* To promote programming education and exploration, not the least of which, is
+the fact that in writing this, I will learn a great deal as well.
+* As an enabler for my own compiler based projects.
 
 #### Translators:
 
@@ -94,6 +96,8 @@ _Interpretation_ - In this case, there is no output representation. Instead,
 after performing all the needed analysis and code generation steps, that code
 is run right away. This approach is used in Basic, Ruby, Python, and many
 other languages.
+
+---
 
 #### Summary of Translators.
 
