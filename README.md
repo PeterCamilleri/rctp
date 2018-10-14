@@ -213,6 +213,9 @@ want to gratefully acknowledge all of them.
 Also, if you want to really step up your compiler skills, a serious read of
 these books could help a lot.
 
-Modern Compiler Design (Dick Grune, Kees van Reeuwijk, Henri E. Bal Ceriel, J.H. Jacobs, Koen Langendoen, 2012)
+Modern Compiler Design (Dick Grune, Kees van Reeuwijk, Henri E. Bal Ceriel, J.H. Jacobs, Koen Langendoen, 2012) *1
 
 WIP
+
+Notes
+  (1) - I here there is a 2016 edition now.
