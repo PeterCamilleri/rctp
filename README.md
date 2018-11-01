@@ -59,6 +59,13 @@ specialized applications.
 As a result, to keep things simple, this project will focus on accepting text
 files as input.
 
+Note: There are some interesting and dramatic exceptions. For example this
+Stack Exchange - Retrocomputing
+[question](https://retrocomputing.stackexchange.com/questions/8121/is-it-possible-to-make-a-rom-converter)
+about [static binary translation](https://en.wikipedia.org/wiki/Binary_translation)
+which discusses compiling binary code in a game cartridge to native code on a
+conventional PC.
+
 ---
 
 **Output**: In stark contrast, compiler output exhibits a large range, often
